@@ -1,4 +1,10 @@
 def hasdigit(s):
+    """
+    hasdigit(str) -> bool
+
+    Returns true if given string has a digit
+
+    """
     for c in s:
         if c.isdigit():
             return True
