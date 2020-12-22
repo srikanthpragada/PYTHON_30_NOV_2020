@@ -1,4 +1,11 @@
 class Account:
+    # class attribute or static variable
+    minbal = 10000
+
+    @staticmethod  # Decorator
+    def getminbal():
+        return Account.minbal
+
     # Constructor
     def __init__(self, acno, ahname, balance=0):
         # Object attributes
@@ -9,6 +16,12 @@ class Account:
     # Methods
     def __str__(self):
         return f"{self.acno} {self.ahname} {self.balance}"
+
+    def __eq__(self, other):
+        return self.acno == other.acno
+
+    def __gt__(self, other):
+        return self.balance > other.balance
 
     def deposit(self, amount):
         self.balance += amount
