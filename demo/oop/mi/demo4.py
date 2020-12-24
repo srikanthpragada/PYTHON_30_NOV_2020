@@ -7,7 +7,7 @@ class B(A):
     pass
 
 
-class C:
+class C(A):
     def process(self):
         print("C Process")
 
