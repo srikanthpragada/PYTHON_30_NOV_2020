@@ -1,0 +1,14 @@
+<books>
+    <book>
+        <title>Python Tricks</title>
+        <price>450</price>
+    </book>
+    <book>
+        <title>C Complete Reference</title>
+        <price>350</price>
+    </book>
+    <book>
+        <title>Hands on Machine Learning</title>
+        <price>2500</price>
+    </book>
+</books>

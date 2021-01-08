@@ -1,0 +1,5 @@
+<books>
+    <book title="Python Tricks" price="450"/>
+    <book title="C Complete Reference" price="350"/>
+    <book title="Hands on Machine Learning" price="2500"/>
+</books>
